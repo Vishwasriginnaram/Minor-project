@@ -177,3 +177,45 @@ body {
 .about {
   background-image:linear-gradient(to bottom,#7600bc,#ca5cdd);
 }
+.footer {
+  color: black;
+  font-size:25px;
+  padding:8px;
+  background-color: white;
+  border-radius: 50%;
+}
+.footer1 {
+  color: black;
+  font-size:25px;
+  padding:8px 10px 8px 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+.footer:hover {
+  transform: scale(1.1);
+  color: red;
+}
+.footer1:hover {
+  transform: scale(1.1);
+  color: red;
+}
+.footer-comp:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+@media(min-width:768px) {
+  .footer {
+    color: black;
+    font-size:30px;
+    padding:10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .footer1 {
+    color: black;
+    font-size:30px;
+    padding:10px 12px 10px 12px;
+    background-color: white;
+    border-radius: 50%;
+  }
+}
