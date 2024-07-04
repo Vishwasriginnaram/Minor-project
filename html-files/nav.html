@@ -20,19 +20,6 @@
         <div class="flex lg:gap-x-12">
            <a href="../html-files/homePage.html"><div class="nav-ele text-[white] text-md font-semibold rounded-full">Home</div></a> 
            <a href="../html-files/aboutPage.html"><div class="nav-ele text-[white] text-md font-semibold rounded-full">About Us</div></a> 
-            <!-- <div class="dropdown z-50">
-                <button class="dropdown-btn nav-ele" aria-haspopup="menu">
-                  <span class="font-semibold">Music Levels</span>
-                  <span class="arrow"></span>
-                </button>
-                <ul class="dropdown-content" role="menu">
-                  <li style="--delay: 1;"><a  href="../html-files/musicPage1.html">Prarambhik</a></li>
-                  <li style="--delay: 2;"><a href="#">Praveshika pratham</a></li>
-                  <li style="--delay: 3;"><a href="#">Praveshika poorna</a></li>
-                  <li style="--delay: 4;"><a href="#">Madhyama pratham</a></li>
-                  <li style="--delay: 5;"><a href="#">Madhyama poorna</a></li>
-                </ul>
-              </div> -->
               <a href="../html-files/contact.html"> <div class="nav-ele text-[white] text-md font-semibold rounded-full">Contact Us</div></a>
               <a href="../html-files/loginPage.html"> <div class="login-ele text-md font-semibold rounded-full">Login</div></a>
             </div>
@@ -61,17 +48,6 @@
   function closemenu() {
       sidemenu.style.right = "-100%";
   }
-</script>
-<script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', () => {
-    const navItems = document.querySelectorAll('.nav-ele');
-    navItems.forEach(item => {
-        item.addEventListener('click', () => {
-            navItems.forEach(nav => nav.classList.remove('active'));
-            item.classList.add('active');
-        });
-    });
-});
 </script>
 </body>
 </html>
